@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.iitr.kaishu.khotspotstarter.MainActivity"
+    android:background="@drawable/background">
+
+
+    <Switch
+        android:id="@+id/activestate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textSize="24sp"
+        android:layout_above="@+id/second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="75dp" />
+
+    <EditText
+        android:id="@+id/second"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint=" Add Mac Address     "
+        android:textSize="24sp"
+        android:maxLength="17"
+        android:maxLines="1"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/second"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="19dp"
+        android:text="For more mac addresses upgrade to pro version" />
+</RelativeLayout>
